@@ -25,7 +25,9 @@ async function askBuddy() {
         </div>`;
 
     try {
-        const response = await fetch(window.API_CONFIG.apiUrl, {
+        // Temporary fix: Use the actual Render URL directly
+        const apiUrl = "https://ai-agent-backend-2uut.onrender.com/api/ask";
+        const response = await fetch(apiUrl, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
