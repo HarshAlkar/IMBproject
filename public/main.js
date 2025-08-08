@@ -25,7 +25,7 @@ async function askBuddy() {
         </div>`;
 
     try {
-        const response = await fetch("http://localhost:5000/api/ask", {
+        const response = await fetch(window.API_CONFIG.apiUrl, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
