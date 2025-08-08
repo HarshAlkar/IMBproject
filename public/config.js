@@ -4,9 +4,9 @@ const config = {
     development: {
         apiUrl: "http://localhost:5000/api/ask"
     },
-    // Production environment - Update this with your actual Render URL
+    // Production environment - Your actual Render URL
     production: {
-        apiUrl: "https://your-render-backend-url.onrender.com/api/ask"
+        apiUrl: "https://ai-agent-backend-2uut.onrender.com/api/ask"
     }
 };
 
